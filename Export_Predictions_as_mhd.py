@@ -4,9 +4,6 @@ __author__ = 'Brian M Anderson'
 from connect import *
 import os
 
-class Change_Patient(object):
-    def __init__(self):
-        self.patient_db = get_current('PatientDB')
 
     def process(self, MRN):
         self.MRN = MRN
