@@ -7,13 +7,6 @@ from Resample_Class.Resample_Class import Resample_Class_Object
 
 
 base_path = r'H:\Liver_Disease_Ablation'
-new_path = r'H:\Liver_Disease_Ablation\Incorrect_Size'
-files = [r'Train\Overall_Data_LiTs_28.nii.gz', r'Train\Overall_Data_LiTs_35.nii.gz',
-         r'Train\Overall_Data_LiTs_40.nii.gz', r'Train\Overall_Data_LiTs_44.nii.gz',
-         r'Validation\Overall_Data_LiTs_30.nii.gz', r'Validation\Overall_Data_LiTs_37.nii.gz',
-         r'Test\Overall_Data_LiTs_31.nii.gz', r'Test\Overall_Data_LiTs_33.nii.gz',
-         r'Test\Overall_Data_LiTs_36.nii.gz', r'Test\Overall_Data_LiTs_43.nii.gz',
-         r'Test\Overall_Data_LiTs_46.nii.gz']
 
 for file_path in files:
     image_path = os.path.join(base_path,file_path)

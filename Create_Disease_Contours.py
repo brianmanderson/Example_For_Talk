@@ -17,10 +17,7 @@ class create_RT_Structure():
         except:
             self.base_path = '\\\\mymdafiles\\ou-radonc\\Raystation\\Research\\Auto_Contour_Sites\\'
         try:
-            self.patient_db = get_current('PatientDB')
-            self.patient = get_current('Patient')
-            self.case = get_current('Case')
-            self.exam = get_current('Examination')
+
             self.MRN = self.patient.PatientID
             self.path = os.path.join(self.base_path, self.roi_name + '_Auto_Contour', 'Input_3', self.patient.PatientID)
         except:
