@@ -130,4 +130,3 @@ dmypy.json
 /Fake_Patient_Data/
 /*.dcm
 /*.xlsx
-/*.txt
