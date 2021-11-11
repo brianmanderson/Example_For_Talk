@@ -38,17 +38,9 @@ correct_orientation = False
 if correct_orientation:
     from Assign_correct_orientation import assign_orientation
     assign_orientation()
+image_cube = (16, 32, 32, 4)
 
-'''
-Create disease contours
-'''
-#  Run Create_Disease_Contours
 
-'''
-Export predictions as .mhd files or RS structures...
-'''
-#  Run Export_Predictions_as_mhd
-#  Run Export_Predictions_as_RS
 '''
 Convert Prediction .mhd files to .nii files for submission
 '''
