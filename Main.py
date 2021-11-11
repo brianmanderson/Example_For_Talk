@@ -41,16 +41,4 @@ if correct_orientation:
 image_cube = (5, 32, 32, 4) # This is the image cube I will use for training
 
 
-'''
-Convert Prediction .mhd files to .nii files for submission
-'''
-predictions_to_nii = True
-if predictions_to_nii:
-    from Convert_predictions_to_nii import mhd_to_nii, RS_to_nii
-    # mhd_to_nii()
-    RS_to_nii()
-
-zip_predictions = False
-if zip_predictions:
-    from Zip_Results import zip_files
-    zip_files()
+My_amazing_unzip_and_worker_thing
