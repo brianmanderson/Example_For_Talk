@@ -38,7 +38,7 @@ correct_orientation = False
 if correct_orientation:
     from Assign_correct_orientation import assign_orientation
     assign_orientation()
-image_cube = (16, 32, 32, 4)
+image_cube = (32, 32, 32, 4)
 
 
 '''
